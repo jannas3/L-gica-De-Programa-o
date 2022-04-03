@@ -1,3 +1,7 @@
+/* Fa√ßa um algoritmo que simule uma calculadora com as quatro opera√ß√µes b√°sicas (+, -, *, / ).
+O algoritmo deve solicitar ao usu√°rio a entrada de dois operandos e da opera√ß√£o a ser executada, 
+na forma de um menu. Dependendo da op√ß√£o escolhida, deve ser executada a opera√ß√£o solicitada e escrito seu resultado. */
+
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -8,30 +12,30 @@ int n1,n2,operacao;
 float r;
 setlocale(LC_ALL,"Portuguese");
 
-     printf(" Entre com o n˙mero da opÁ„o abaixo: ");
-     printf(" \n 1- soma \n 2- subitraÁ„o \n 3- multiplicaÁ„o \n 4- divis„o \n ");
+     printf(" Entre com o n√∫mero da op√ß√£o abaixo: ");
+     printf(" \n 1- soma \n 2- subitra√ß√£o \n 3- multiplica√ß√£o \n 4- divis√£o \n ");
      scanf("%d",&operacao);
-      printf (" Digite um n˙mero: ");
+      printf (" Digite um n√∫mero: ");
       scanf("%d",&n1);
-      printf (" Digite outro n˙mero: ");
+      printf (" Digite outro n√∫mero: ");
       scanf("%d",&n2);
 
 
       switch (operacao){
        case 1:
-            printf("O Resultado da Soma È: %.2f",r=n1+n2);
+            printf("O Resultado da Soma √©: %.2f",r=n1+n2);
                break;
       case 2:
-             printf("O Resultado da SubtraÁ„o: È %.2f",r=n1-n2);
+             printf("O Resultado da Subtra√ß√£o: √© %.2f",r=n1-n2);
                 break;
       case 3:
-         printf("O Resultado da MultiplicaÁ„o: È %.2f", r=n1*n2);
+         printf("O Resultado da Multiplica√ß√£o: √© %.2f", r=n1*n2);
             break;
       case 4:
-            printf("O Resultado da Divis„o È: %.2f", r=n1/n2);
+            printf("O Resultado da Divis√£o √©: %.2f", r=n1/n2);
                break;
 
-      default: printf(" OpÁ„o inv·lida! ");
+      default: printf(" Op√ß√£o inv√°lida! ");
 
 }
 
