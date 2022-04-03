@@ -1,3 +1,9 @@
+/*
+ Fa√ßa um algoritmo que leia tr√™s valores que representam os lados de um tri√¢ngulo. Primeiramente, verifique se os lados podem formar um tri√¢ngulo (a soma de dois lados n√£o pode ser menor que o terceiro lado). Caso possa formar um tri√¢ngulo, indique se este √© equil√°tero, is√≥scele ou escaleno.
+a. Equil√°teros: tem os comprimentos dos tr√™s lados iguais;
+b. Is√≥sceles: temos comprimentos de dois lados iguais;
+c. Escaleno: temos comprimentos dos tr√™s lados diferentes.*/
+ 
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -7,7 +13,7 @@ main(){
 int n1,n2,n3;
  setlocale(LC_ALL,"Portuguese");
 
-         printf ("\n Digite o valores para verificar se È um tri‚ngulo: \n");
+         printf ("\n Digite o valores para verificar se √© um tri√¢ngulo: \n");
          printf("\n Digite o primeiro valor: ");
           scanf("%d",&n1);
          printf("\n Digite o segundo valor do lado: ");
@@ -16,33 +22,33 @@ int n1,n2,n3;
           scanf("%d",&n3);
 
           if (n1+n2> n3 && n1+n3> n2 && n2+n3>n1){
-            printf("\n Os valores formam o tri‚ngulo: \n");
+            printf("\n Os valores formam o tri√¢ngulo: \n");
 
 
-          //equilatero: todos os lados s„o iguais
+          //equilatero: todos os lados s√£o iguais
            if((n1 == n2) && (n2 == n3)){
 
-            printf("O tri‚ngulo È equil·tero");
+            printf("O tri√¢ngulo √© equil√°tero");
 
           }
-          //escaleno: os 3 lados s„o diferentes
+          //escaleno: os 3 lados s√£o diferentes
             else
                 if((n1 != n2) && (n1 != n3) && (n2 != n3)){
 
-                  printf("O tri‚ngulo È escaleno") ;
+                  printf("O tri√¢ngulo √© escaleno") ;
 
             }
-            //isÛsceles: 2 lados iguais e 1 diferente
+            //is√≥sceles: 2 lados iguais e 1 diferente
             else
                 if ((n1 == n2) || (n1 == n3) || (n2 == n3)) {
 
-         printf("O tri‚ngulo È isÛsceles");
+         printf("O tri√¢ngulo √© is√≥sceles");
 
             }
           }
             else
 
-            printf("\n Os trÍs lados n„o formam um tri‚ngulo\n");
+            printf("\n Os tr√™s lados n√£o formam um tri√¢ngulo\n");
 
 }
 
