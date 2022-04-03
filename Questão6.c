@@ -1,3 +1,9 @@
+/*Construa um algoritmo que leia o sexo de uma quantidade desconhecida de pessoas. 
+    Quando uma pessoa for do sexo feminino, o valor lido será “F”. Se for masculino, será “M”. Quando o valor for diferente de “M” ou “F”, 
+informe a quantidade de pessoas do sexo feminino e do sexo masculino. Informe também a porcentagem de pessoas do sexo feminino e do sexo masculino.
+    
+    */
+
 #include <stdio.h>
 #include <math.h>
 main(){
