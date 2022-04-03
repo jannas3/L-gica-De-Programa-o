@@ -1,3 +1,14 @@
+/*
+7. Certa firma fez uma pesquisa de Mercado para saber se as pessoas gostaram ou não de um novo produto lançado no mercado.
+Para isso forneceu o sexo do entrevistado e sua resposta (sim ou não). 
+Sabendo-se que foram entrevistadas 20 pessoas, fazer um algoritmo que calcule e escreva:
+a. A quantidade de pessoas que responderam sim;
+b. A quantidade de pessoas que responderam não;
+c. A porcentagem de pessoas do sexo feminino que responderam sim;
+d. A porcentagem de pessoas do sexo masculino que responderam não.
+
+*/
+
 #include <stdio.h>
 #include <math.h>
 main(){
