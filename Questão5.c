@@ -1,3 +1,9 @@
+/*
+Da mesma forma que a multiplicação pode ser expressa como o resultado de várias adições, a potenciação pode ser representada por uma série de multiplicações.
+Faça um algoritmo que calcule a potenciação utilizando o operador da multiplicação.
+Onde seja lido a base e o expoente da potenciação. Teste para evitar expoentes menores que zero. Se o expoente for 0 (zero) o resultado é 1.
+*/
+
 #include <stdio.h>
 #include <math.h>
 
