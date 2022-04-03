@@ -31,8 +31,8 @@ main(){
         }
     }
 
-//printf("O numero de pessoas que responderam sim e: %d\n", cont1);
-//printf("O numero de pessoas que responderam nao e: %d\n", cont2);
+printf("O numero de pessoas que responderam sim e: %d\n", cont1);
+printf("O numero de pessoas que responderam nao e: %d\n", cont2);
 printf("A porcentagem de pessoas do sexo feminino que responderam sim e: %.2f\n", percentF = (soma1 * 100) / (cont1 + cont2));
 printf("A porcentagem de pessoas do sexo masculino que responderam nao e %.2f\n",percentM = (soma2 * 100) / (cont1 + cont2));
 }
