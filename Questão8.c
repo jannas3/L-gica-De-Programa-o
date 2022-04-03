@@ -1,3 +1,5 @@
+/*Implemente um algoritmo que imprima na tela todas as tabuadas de multiplicar de 1 até 5.*/
+
 #include <stdio.h>
 #include <math.h>
 
