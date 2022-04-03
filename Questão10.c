@@ -1,3 +1,6 @@
+/*Criar um algoritmo que leia a quantidade de n√∫meros que se deseja digitar.
+Ap√≥s a entrada de todos e que por fim possa ser impresso o maior e o menor n√∫mero digitado. Trate inclusive os n√∫meros negativos.
+*/
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -10,11 +13,11 @@ main ()
     int contador;
 
     contador=1;
-          printf("Informem a quantidade de n˙meros que se desejar digitar: ");
+          printf("Informem a quantidade de n√∫meros que se desejar digitar: ");
           scanf("%f",&qnt);
 
         while (contador<= qnt)  {
-    printf("Digite o n˙mero %d: ",contador);
+    printf("Digite o n√∫mero %d: ",contador);
        scanf("%f",&n);
        if (contador ==1){
        maior=n;
@@ -33,6 +36,6 @@ main ()
 
         }
 
- printf(" O n˙mero maior È %.1f \n", maior);
- printf(" O n˙mero menor È %.1f \n", menor);
+ printf(" O n√∫mero maior √© %.1f \n", maior);
+ printf(" O n√∫mero menor √© %.1f \n", menor);
 }
