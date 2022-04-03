@@ -1,3 +1,6 @@
+/*Desenvolva um algoritmo que leia 10 números e imprima a soma dos pares e a quantidade de números ímpares.
+*/
+
 #include <stdio.h>
 #include <locale.h>
 #include <math.h>
@@ -11,7 +14,7 @@ main ()
        impares=0;
 
      for( i=0; i<10;i++){
-      printf("Digite o n�mero: ");
+      printf("Digite o número: ");
       scanf("%d",&n);
 
      if (n % 2 == 0){
@@ -27,6 +30,6 @@ main ()
 
 
 }
-        printf("A soma dos n�mero pares %d \n",pares);
-       printf("A Quantidade dos  n�meros impares %d : \n",impares );
+        printf("A soma dos número pares %d \n",pares);
+       printf("A Quantidade dos  números impares %d : \n",impares );
 }
